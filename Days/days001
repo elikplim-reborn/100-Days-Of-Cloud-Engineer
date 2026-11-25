@@ -1,1 +1,19 @@
-##CREATE KEY PAIR ##
+**CREATE KEY PAIR**
+
+EC2 Key Pair Configuration
+
+## Tasks Completed
+- [x] Navigated to the AWS EC2 Management Console.
+- [x] Accessed the Key Pairs section from the left-hand navigation pane.
+- [x] Generated a new RSA key pair for secure instance authentication.
+
+## Key Learnings
+- Understood the role of public/private key cryptography in securing SSH access to cloud virtual machines.
+- Learned the importance of securely downloading and storing the private key file immediately upon creation, as it cannot be recovered if lost.
+
+## Challenges & Resolutions
+- *Issue:* None encountered.
+- *Resolution:* The setup process was straightforward using the standard AWS Management Console workflow.
+
+## Resources & References
+- AWS Documentation: Amazon EC2 key pairs and Linux instances.
