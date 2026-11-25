@@ -1,1 +1,17 @@
+**Create Security Groups**
 
+**Tasks Completed**
+-  Created a new security group within the VPC.
+-  Configured an inbound rule allowing HTTP traffic on port 80.
+-  Added an outbound rule permitting TCP traffic on port 20.
+
+ *Key Learnings*
+- Clarified the function of security groups as virtual firewalls controlling instance-level traffic.
+- Learned to distinguish between inbound rules (traffic entering the instance) and outbound rules (traffic leaving the instance).
+
+  *Challenges And Resolutions*
+- Issue: Memory lapse regarding specific configuration parameters.
+- Resolution: Recalled and verified the port assignments for web traffic and data transfer.
+
+**Resources And References**
+- AWS Documentation: Control traffic to resources using security groups.
