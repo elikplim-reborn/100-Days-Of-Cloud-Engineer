@@ -1,1 +1,17 @@
+**Create Subnet**
+Tasks Completed
+-  Accessed the AWS VPC Dashboard to manage network architecture.
+-  Configured a new subnet to integrate with existing VPC IP allocations.
+-  Adjusted CIDR block parameters to resolve address space conflicts.
 
+ *Key Learnings*
+- Clarified the inverse relationship between the CIDR prefix and available host IP range.
+- Confirmed that a smaller prefix length (e.g., /16) provides a larger IP address pool than a larger prefix (e.g., /20).
+
+** Challenges And Resolutions**
+- Issue: Initial /20 CIDR allocation conflicted with existing subnets on the network.
+- Resolution: Reconfigured the subnet to a /16 block to bypass overlapping ranges and successfully establish network connectivity.
+
+**Resources And References**
+- AWS Documentation: VPCs and Subnets.
+- IP Addressing and CIDR Subnetting Guides
