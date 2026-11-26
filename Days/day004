@@ -1,14 +1,14 @@
- AWS S3 Bucket Versioning
+ **AWS S3 Bucket Versioning**
 
-## Tasks Completed
-- [x] Logged into the AWS Management Console and navigated to the S3 service.
-- [x] Located the target S3 bucket containing existing data.
-- [x] Accessed the bucket settings to modify versioning state from suspended to enabled.
+ Tasks Completed
+- Logged into the AWS Management Console and navigated to the S3 service.
+- Located the target S3 bucket containing existing data.
+- Accessed the bucket settings to modify versioning state from suspended to enabled.
 
-## Key Learnings
+  Key Learnings
 - Understood that S3 bucket versioning preserves, retrieves, and restores every version of every object stored in the bucket.
 - Recognized versioning as a critical safeguard against accidental deletes or overwrites.
 
-## Challenges & Resolutions
-- *Issue:* Versioning status was initially suspended.
-- *Resolution:* Navigated to the bucket properties tab and updated the Bucket Versioning configuration to enable state
+  Challenges And Resolutions
+- Issue: Versioning status was initially suspended.
+- Resolution: Navigated to the bucket properties tab and updated the Bucket Versioning configuration to enable state
